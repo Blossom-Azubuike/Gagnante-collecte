@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.login {
+    padding: 50px 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(217, 205, 38);
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: rgb(217, 205, 38);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #b9c78af3;
+}
+
+.login p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login p a {
+    color: rgb(217, 205, 38);
+    text-decoration: none;
+}
+
+.login p a:hover {
+    text-decoration: underline;
+    color: #b9c78af3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(217, 205, 38);
+}

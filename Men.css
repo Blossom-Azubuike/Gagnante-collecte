@@ -1,0 +1,118 @@
+body {
+   
+    background-color: #2e2d2d;
+    padding: 0;
+    text-align: justify;
+}
+header{
+    background-color: rgb(26, 25, 25);
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    
+}
+header h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(217, 205, 38);
+}
+main{
+    margin: 100px auto;
+    max-width: 1300px;
+    background-color: rgb(169, 150, 108);
+    padding: 20px;
+    }
+
+
+.Torso {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: rgb(177, 171, 171);
+    text-align: center;
+    text-justify: distribute-all-lines;
+    justify-content: space-evenly;
+        
+ }
+ .Shorts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-justify: distribute-all-lines;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: rgb(177, 171, 171);
+    text-align: center;
+ }
+ 
+ .Shoes
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: rgb(177, 171, 171);
+    text-align: center;
+    text-justify: distribute-all-lines;
+    justify-content: space-evenly;
+}
+
+.Underwear{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: rgb(177, 171, 171);
+    text-align: center;
+    text-justify: distribute-all-lines;
+    justify-content: space-evenly;
+}
+ img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0  rgb(217, 205, 38);
+ }
+
+.Caption {
+    background-color: rgb(169, 150, 108);
+    box-shadow: 0 0 20px 0  rgb(217, 205, 38);
+}
+h2, h1, li, figcaption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f7f1f1;
+}
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    text-align: center;
+}
